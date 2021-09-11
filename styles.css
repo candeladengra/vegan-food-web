@@ -1,0 +1,626 @@
+body {
+    margin: 0%;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    display: inline;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    z-index: 2;
+    top: 0;
+    background-color: white;
+    margin: 0
+}
+
+#logo-div {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+}
+
+#right-top-bar {
+    display: flex;
+}
+
+#top-bar-button {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(170, 210, 54);
+    padding: 9px 34px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    margin-left: 70px;
+    margin-right: 50px;
+
+}
+
+#Demo-pages {
+    margin-right: 70px ;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+
+#Watch-video{
+    margin-right: 70px ;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer
+}
+
+#Blocks-btn{
+    margin-right: 70px ;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+
+#Demo-pages-menu {
+    font-family: 'Poppins', sans-serif;
+    width: 150px;
+    height: 150px;
+    padding: 14px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px #ccc;
+    text-align: center;
+    border-top: 2px solid rgb(170, 210, 54);
+    background-color: white;
+    position: absolute;
+    top: 70px;
+    right: 600px;
+    display: none;
+}
+
+#Demo-pages:hover{
+    display: block}
+
+
+.Menu-item {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.Menu-item:last-of-type {
+    border-bottom: none;
+}
+
+#portada {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background-image: url('https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 600px) {
+    #portada {
+        height: 200px;
+    }
+}
+
+#heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 80px;
+    font-weight: 600;
+    letter-spacing: 8.8px;
+    line-height: 1.2;
+    word-wrap: break-word;
+    margin-top: 200px;
+}
+
+#description {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: #8b8b99;
+    line-height: 1.6;
+    word-wrap: break-word;
+}
+
+main {
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    width: 100%;
+    height: 650px;
+    color: white;
+}
+
+@media screen and (max-width: 700px) {
+    main {
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 1750px;
+    }
+}
+
+#step1 {
+    background-color: #5acda6;
+}
+
+#step2 {
+    background-color: #91ac41;
+}
+
+#step3 {
+    background-color:  #e4b476;
+}
+#step4 {
+    background-color:  #f69dad;
+}
+
+.Step-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 600}
+
+.step-label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14x;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 1.6}
+
+#step-icon1 {
+    font-size: 100px;
+    margin-top: 170px;
+    margin-bottom: 30px
+}
+
+#step-icon2 {
+    font-size: 100px;
+    margin-top: 170px;
+    margin-bottom: 30px
+}
+
+#step-icon3 {
+    font-size: 100px;
+    margin-top: 170px;
+    margin-bottom: 30px}
+
+#step-icon4 {
+    font-size: 100px;
+    margin-top: 170px;
+    margin-bottom: 30px}
+
+#step-icon1:hover {
+    transform: scale(1.25);
+}
+
+#step-icon2:hover {
+    transform: scale(1.25);
+}
+
+#step-icon3:hover {
+    transform: scale(1.25);
+}
+
+#step-icon4:hover {
+    transform: scale(1.25);
+}
+
+#section {
+    background-color: #f7eee2;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#Fresh-food-text {
+    color: #91ac41;
+    font-size: 24px;
+    font-family:'Caveat';
+    font-style: italic;
+    margin: 0;
+    text-align: center;
+    font-weight: 400;
+    position: relative;
+    top: 50px}
+
+#Vegan-food {
+    font-family:'Poppins', sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 120px;
+}
+
+#descr {
+    font-family:'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+    top: 80px;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+}
+
+#Grid-container {
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    width: 100%;
+    height: 500px;
+}
+
+#logo1 {
+    font-size: 100px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    background-color: #e3b375;
+    color: white;
+    padding:30px;
+    border-radius: 50%;}
+
+#logo2 {
+    font-size: 100px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    background-color: #e3b375;
+    color: white;
+    padding:30px;
+    border-radius: 50%;}
+
+
+#logo3 {
+    font-size: 100px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    background-color: #e3b375;
+    color: white;
+    padding:30px;
+    border-radius: 50%;}
+
+#logo4 {
+    font-size: 100px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    background-color: #e3b375;
+    color: white;
+    padding:30px;
+    border-radius: 50%}
+
+.section-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 600}
+
+.section-p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: #8b8b99}
+
+#logo1:hover {
+        transform: scale(1.25);
+    }
+
+#logo2:hover {
+        transform: scale(1.25);
+    }
+
+#logo3:hover {
+        transform: scale(1.25);
+    }
+
+#logo4:hover {
+        transform: scale(1.25);
+    }
+
+#section2 {
+    width: 100%;
+    height: 800px;
+    background-color: white;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#Fresh-food-text2 {
+    color: #91ac41;
+    font-size: 24px;
+    font-family:'Caveat';
+    font-style: italic;
+    margin: 0;
+    text-align: center;
+    font-weight: 400;
+    position: relative;
+    top: 50px;
+    }
+
+#Vegan-food2 {
+    font-family:'Poppins', sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 120px;
+}
+
+#descr2 {
+    font-family:'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+    top: 80px;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+}
+
+#Grid-container2 {
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 100vh;
+    justify-content: space-around;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    #Grid-container2 {
+        display: block;
+        width: 100%;
+        height: 500px;
+        text-align: center;
+    }
+    #section2 {
+        width: 100%;
+        height: 1700px;
+    }
+}
+
+.test-card {
+    background-color: #f5f6fb;
+    border-bottom-left-radius: 45px;
+    border-top-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    height: 500px;
+    }
+
+.testimonial-pic {
+    border-radius: 50%;
+    width: 150px;
+}
+
+.testimonial-p {
+    font-family:'Poppins', sans-serif;
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    font-style: italic;
+    color: #8b8b99}
+
+.testimonial-heading {
+    font-family:'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+#Section-3 {
+    height: 800px;
+    width: 100%;
+    margin-top: 200px;
+    display: flex;
+}
+
+#frutilla-id {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: inline-block;
+    justify-content: flex-start;
+    background-image: url("https://mobirise.com/extensions/organicamp/assets/images/19.jpg");
+    background-size: cover;
+}
+
+#Follow-us-id {
+    width: 50%;
+    height: 100%;
+    background-image: url('https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png');
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#Followustitle {
+    font-size: 70px;
+    font-weight: 400;
+    margin-top: 250px
+}
+
+#Followusdescr {
+    font-size: 24px;
+    color: #8b8b99;
+}
+
+#input {
+    border: none;
+    outline: none;
+    padding: 8px;
+}
+
+#suscribe-btn {
+    background-color: #f69dad;
+    margin-top: 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#suscribe-btn:hover {
+    color: #f69dad;
+    background-color: white;
+}
+
+#section-4 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    padding: 24px;
+    background-color: rgb(234, 248, 245);
+}
+
+#section-4 p {
+    font-style: italic;
+    color: cornflowerblue;
+}
+
+#section-4 h1 {
+    font-weight: 600;
+    font-size: 48px;
+}
+
+#video-heading {
+    font-weight: 800;
+    font-size: 35px;
+    width: 300px;
+    color: grey;
+    text-align: center;
+    padding-bottom: 28px;
+    border-bottom: 1px solid orange;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#video {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+
+#form-section {
+    display: grid;
+    height: 800px;
+    grid-template-columns: auto auto;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+}
+
+.titleform {
+    font-size: 48px;
+    text-align: center;
+    font-weight: 900;
+}
+
+#form-parag {
+    margin-left: 78px;
+    margin-bottom: 0;
+}
+
+.form-div {
+        max-width: 500px;
+    }
+
+.form-div p {
+    color: grey;
+    letter-spacing: 0.3px;
+    padding-left: 36px;
+}
+
+.form-div h3 {
+    color: black;
+    letter-spacing: 0.3px;
+    font-size: 24px;
+    padding-left: 36px;
+}
+
+.formp {
+    color: #91ac41;
+    font-size: 24px;
+    font-family:'Caveat';
+    font-style: italic;
+    margin: 0;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    text-align: center;
+    font-weight: 400;
+    position: relative;
+    top: 50px}
+
+#form-register {
+    width: 300px;
+    padding: 24px;
+    margin: auto;
+    margin-left: 90px;}
+
+.campos {
+    margin: 0px;
+    margin-bottom: 4px;
+    margin-top: 12px}
+
+.imput-item {
+    width: 100%;
+    font-size: 14px;
+    padding-bottom: 8px;
+    margin-top: 36px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+}
+
+#sbmit-btn {
+    margin-top: 36px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(170, 210, 54);
+    padding: 9px 34px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    margin-left: 70px;
+    margin-right: 50px;
+}
+
+footer {
+    background-color: #232323;
+    color: white;
+    text-align: center;
+    padding: 24px;
+}
